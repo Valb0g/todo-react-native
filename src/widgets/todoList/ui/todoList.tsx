@@ -1,9 +1,8 @@
 import { StyleSheet, View } from 'react-native'
 import React from 'react'
-import { RenderTodos } from '../../../entities/todos/ui/renderTodos'
-import { AddTodoForm } from '../../../entities/todos/ui/addTodoForm'
 import { Header } from '../../../shared/ui/header'
 import { headerTitle } from '../lib/mocks'
+import { AddTodoForm, RenderTodos } from '../../../entities/todos'
 
 export const TodoList = () => {
   return (

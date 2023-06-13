@@ -2,7 +2,7 @@ import { StyleSheet, Text, TouchableHighlight } from 'react-native'
 import { type IListItemProp } from '../model/types'
 import React from 'react'
 
-export default function ListItem ({ item, onDelete }: IListItemProp) {
+export const ListItem = ({ item, onDelete }: IListItemProp) => {
   return (
         <TouchableHighlight
             style={styles.itemContainer}

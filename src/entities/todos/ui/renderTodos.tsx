@@ -1,10 +1,10 @@
 import { StyleSheet, View, FlatList } from 'react-native'
-import ListItem from './listItem'
 import { type RenderItemProps } from '../model/types'
 import React from 'react'
 import { toJS } from 'mobx'
 import { todoStore } from '../model/model'
 import { observer } from 'mobx-react'
+import { ListItem } from '../index'
 
 export const RenderTodos = observer(() => {
   const todos = toJS(todoStore.todos)
